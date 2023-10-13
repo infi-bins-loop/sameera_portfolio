@@ -1,0 +1,35 @@
+.navbar{
+    background-color: white;
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo{
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+
+.desktopMenuListItem{
+    margin: 1.5rem;
+    cursor: pointer;
+    color: black;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 100;
+    font-family: Marker Felt, fantasy;
+}
+.desktopMenuListItem:hover{
+    color: rgb(3, 148, 3);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(3, 148, 3);
+}
