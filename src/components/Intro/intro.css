@@ -1,7 +1,7 @@
 #intro {
-    height: calc(80vh - 4rem);
+    height: calc(110vh - 5rem);
     width: 100vw;
-    max-width: 75rem;
+    max-width: 70rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -12,13 +12,12 @@
     z-index: -1;
     right: 0;
     object-fit: cover;
-    height: 70vh;
+    height: 80vh;
     width: 30vw;
 }
-
 .introContent {
     height: 80vh;
-    width: 100vw;
+    width: 60vw;
     padding: 2rem;
     font-size: 2.5rem;
     font-weight: 600;
@@ -30,27 +29,56 @@
 .hello{
     font-size: 1.75rem;
     font-weight: 200;
+    padding-top: 1rem;
 }
 
 .introName{
-    color: rgb(3, 148, 3);
+    color: #0C9F50;
 }
 
 .introPara{
     font-size: medium;
     font-weight: 300;
     letter-spacing: 0.5px;
+    padding-top: 1rem;
+    max-width: 30rem;
+}
+.introSocial{
+    word-spacing: 0.5rem;
+    font-size: 60%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 940px){
     .bg{
-        right: -10vw
+        height: 70vh;
+        width: 35vw;
+    }
+}
+@media screen and (max-width: 730px) {
+    .bg{
+        height: 60vh;
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .bg{
+        height: 75vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.75;
+        
     }
     .introContent{
-        font-size: 7vw;
+        margin-top: 3rem;
+        height: 60vh;
+        width: 100vw;
     }
     .hello{
-        font-size: 4.5vw;
-        font-weight: 300;
+        font-size: 1.5rem;
     }
+    #intro{
+        height: 90vh;
+    }
+    
 }
