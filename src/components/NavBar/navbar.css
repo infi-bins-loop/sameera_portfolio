@@ -5,18 +5,16 @@
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
     z-index: 3;
+    position: sticky;
 }
 
 .logo{
     object-fit: cover;
-    height: 4rem;
-    width: 4rem;
+    height: 3.7rem;
+    width: 3.7rem;
+    margin-left: 0.5rem;
 }
 
 .desktopMenuListItem{
@@ -32,4 +30,53 @@
     color: #0C9F50;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #0C9F50;
+}
+
+.active{
+    color: #0C9F50;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #0C9F50;
+}
+
+.mobMenu{
+    display: none;
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+.ListItem{
+    color: black;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: rgb(232, 232, 232);
+    text-decoration: solid;
+    font-size: large;
+    font-weight: 100;
+    font-family: Marker Felt, fantasy;
+}
+.ListItem:hover{
+    color: #0C9F50;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #0C9F50;
+}
+
+@media  screen and (max-width: 840px) {
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenu{
+        display: none;
+    }
 }
