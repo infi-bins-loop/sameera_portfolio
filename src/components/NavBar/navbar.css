@@ -80,3 +80,9 @@
         display: none;
     }
 }
+
+.imgSet{
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+}
