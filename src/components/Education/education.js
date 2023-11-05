@@ -9,7 +9,7 @@ const Education = () => {
             <div style={{ borderTop: '3px solid #0C9F50', width: 200, marginTop: 13, marginBottom: 10, marginLeft: 50}} />
               <table className="eduMain">
                 <tr>
-                  <td style={{width: 250}}>2021 - 2025</td>
+                  <td className='date'>2021 - 2025</td>
                   <td style={{fontSize: 'large', fontWeight: 600}}>Vellore Institute of Technology, Vellore</td>
                 </tr>
                 <tr>
@@ -18,7 +18,7 @@ const Education = () => {
                 </tr>
                 <br />
                 <tr>
-                  <td>2019 - 2021</td>
+                  <td className='date'>2019 - 2021</td>
                   <td style={{fontSize: 'large', fontWeight: 600}}>Geetanjali Olympiad School and College</td>
                 </tr>
                 <tr>
@@ -27,7 +27,7 @@ const Education = () => {
                 </tr>
                 <br />
                 <tr>
-                  <td>2009 - 2019</td>
+                  <td className='date'>2009 - 2019</td>
                   <td style={{fontSize: 'large', fontWeight: 600}}>Geethanjali Vidyalaya School</td>
                 </tr>
                 <tr>

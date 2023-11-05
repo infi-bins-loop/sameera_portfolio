@@ -81,5 +81,8 @@
     #intro{
         height: 90vh;
     }
+    .introPara{
+        font-weight: 350;
+    }
     
 }

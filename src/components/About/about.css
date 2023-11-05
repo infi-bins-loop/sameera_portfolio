@@ -25,3 +25,8 @@
     padding: 2rem 3rem;
 }
 
+@media screen and (max-width: 500px){
+    .aboutDesc{
+        max-width: 100vw;
+    }
+}
