@@ -1,11 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './education.css'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Education = () => {
+  useEffect(() => {
+    AOS.init({duration: 1400});
+    AOS.refresh();
+}, []);
   return (
     <section id="education">
         <div className="eduContent">
-            <span className="eduTitle"> Education</span>
+            <span className="eduTitle" data-aos='fade-right'>Education</span>
             <div style={{ borderTop: '3px solid #0C9F50', width: 200, marginTop: 13, marginBottom: 10, marginLeft: 50}} />
               <table className="eduMain">
                 <tr>

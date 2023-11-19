@@ -1,13 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './projects.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({duration: 1400});
+}, []);
   return (
     <section id="projects">
       <div className="proj">
-        <span className="projTitle">My Work</span>
+        <span className="projTitle" data-aos='fade-right'>My Work</span>
+        <div style={{ borderTop: '3px solid #0C9F50', width: 180, marginTop: 13, marginBottom: 10, marginLeft: 40}} />
         <div className="projImgs">
           <div className="projImg1">
             <h2 className='h2m'>Medtrack</h2>

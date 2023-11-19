@@ -1,10 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import './contact.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import emailjs from '@emailjs/browser';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({duration: 1400});
+}, []);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,7 +25,7 @@ const Contact = () => {
     };
   return (
     <section id="contact">
-        <h2 className="conTitle">Get in touch</h2>
+        <h2 className="conTitle" data-aos='fade-right'>Get in touch</h2>
         <p className="conDesc">Let's work together!</p>
         <form className='contForm' ref={form} onSubmit={sendEmail}>
           <input type="text" className="name" placeholder='Your Name' name='from_name'/>

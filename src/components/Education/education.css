@@ -1,5 +1,4 @@
 #education{
-    overflow: hidden;
     width: 100vw;
     max-width: 65rem;
     display: flex;
@@ -11,9 +10,9 @@
 }
 .eduContent{
     text-align: left;
-    display: inline-block;
-    max-width: 65rem;
-    margin-bottom: 3rem;
+    display: contents;
+    margin-bottom: 4rem;
+    width: 60vw;
 }
 .eduTitle{
     font-size: 1.5rem;
@@ -22,8 +21,8 @@
 }
 
 .eduMain{
-    max-width: 65rem;
     margin: 2rem 3rem;
+    margin-bottom: 4rem;
     text-align: left;
 }
 .date{

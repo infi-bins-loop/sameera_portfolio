@@ -10,9 +10,10 @@
     margin: 0 auto;
     padding: 1rem 1rem;
     margin-bottom: 2rem;
-    overflow: hidden;
 }
-
+.proj{
+    display: contents;
+}
 .projTitle{
     font-size: 2rem;
     font-weight:600;
