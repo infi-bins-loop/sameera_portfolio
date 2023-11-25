@@ -23,7 +23,7 @@ const Intro = () => {
       <br />
       </div>
       <br />
-      <hr style={{maxWidth: 7500}}/>
+      <hr style={{maxWidth: 7500}} className='hr'/>
     </section>
   )
 }

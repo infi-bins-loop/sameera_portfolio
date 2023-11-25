@@ -80,10 +80,14 @@
         font-size: 1.5rem;
     }
     #intro{
-        height: 90vh;
+        height: 83vh;
+        margin-bottom: 0.1rem;
     }
     .introPara{
         font-weight: 350;
+    }
+    .hr{
+        display: none;
     }
     
 }
