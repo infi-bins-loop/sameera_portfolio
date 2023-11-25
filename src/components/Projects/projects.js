@@ -14,6 +14,11 @@ const Projects = () => {
         <span className="projTitle" data-aos='fade-right'>My Work</span>
         <div style={{ borderTop: '3px solid #0C9F50', width: 180, marginTop: 13, marginBottom: 10, marginLeft: 40}} />
         <div className="projImgs">
+          <div className="projImg5">
+            <h2 className='h2m'>Virtual Car Showroom</h2>
+            <p className='param'>KIA showroom website created using MERN Stack to explore and book.</p>
+            <a class="btn btn-outline-light" href="https://vcs.onrender.com/" role="button" rel='noreferrer' target="_blank">View Website</a>
+          </div>
           <div className="projImg1">
             <h2 className='h2m'>Medtrack</h2>
             <p className='param'>A Medicine Tracking app</p>
