@@ -9,15 +9,15 @@
     padding: 1rem 2rem;
     justify-content: space-evenly;
     z-index: 1;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
 }
 
 
 .logo{
     object-fit: cover;
-    height: 3.4rem;
-    width: 3.5rem;
+    height: 3.3rem;
+    width: 3.4rem;
     margin-left: 4rem;
     cursor: pointer;
     position: absolute;
@@ -59,7 +59,6 @@
     height: fit-content;
     min-width: 15rem;
     background: white;
-    border-radius: 1rem;
 }
 
 .ListItem{

@@ -11,19 +11,17 @@ const Intro = () => {
 }, []);
   return (
     <section id="intro">
-      <div className="introContent">
-          <span className="hello">Hello,</span>
-          <span className="introText" data-aos='fade-right'>I'm <span className="introName">Sameera</span><br />UX Designer and Developer</span>
-          <div style={{ borderTop: '3px solid #0C9F50', width: 100, marginTop: 12, marginBottom: 10}} />
-          <p className="introPara">I am a passionate designer with keen interest towards designing and development to create applications that are user-friendly and solvereal world problems.</p>
-          <span className="introSocial"><a href="https://www.instagram.com/sameera_0108/" rel='noreferrer' target="_blank"><i className='bi bi-instagram' style={{color:'black'}}></i></a> <a href="https://twitter.com/Sameera0108" target="_blank" rel='noreferrer'><i className='bi bi-twitter' style={{color:'black'}}></i></a> <a href="https://www.linkedin.com/in/m-bhargavee-sameera-008b09234/" target="_blank" rel='noreferrer'><i className='bi bi-linkedin' style={{color:'black'}}></i></a>  <a href="https://github.com/infi-bins-loop" target="_blank" rel='noreferrer'><i className='bi bi-github' style={{color:'black'}}></i></a></span>
-      </div>
-      <div className="zoomImg">
-      <img src={bg} alt="Profile" className="bg" />
-      <br />
-      </div>
-      <br />
-      <hr style={{maxWidth: 7500}} className='hr'/>
+        <div className="introContent">
+            <span className="hello">Hello,</span>
+            <span className="introText" data-aos='fade-right'>I'm <span className="introName">Sameera</span><br /><span style={{}}>UX Designer and Developer</span></span>
+            <div style={{ borderTop: '3px solid #0C9F50', width: 100, marginTop: 12, marginBottom: 10}} />
+            <p className="introPara"><i className='bi bi-envelope-fill' style={{color:'#0C9F50',fontSize: 20}}></i> mbsamee0108@gmail.com <br /><i className='bi bi-geo-alt-fill' style={{color:'#0C9F50',fontSize: 20}}></i> Bengaluru, India <br /><i className='bi bi-cake2-fill' style={{color:'#0C9F50',fontSize: 20}}></i> 1 August 2003</p>
+            <h5>Follow me</h5>
+            <span className="introSocial"><a href="https://www.instagram.com/sameera_0108/" rel='noreferrer' target="_blank"><i className='bi bi-instagram' style={{color:'black'}}></i></a> <a href="https://twitter.com/Sameera0108" target="_blank" rel='noreferrer'><i className='bi bi-twitter' style={{color:'black'}}></i></a> <a href="https://www.linkedin.com/in/m-bhargavee-sameera-008b09234/" target="_blank" rel='noreferrer'><i className='bi bi-linkedin' style={{color:'black'}}></i></a>  <a href="https://github.com/infi-bins-loop" target="_blank" rel='noreferrer'><i className='bi bi-github' style={{color:'black'}}></i></a></span>
+        </div>
+        <div className="zoomImg">
+          <img src={bg} alt="Profile" className="bg" />
+        </div>
     </section>
   )
 }

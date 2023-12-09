@@ -8,7 +8,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
   return (
-        <nav className="navbar sticky-top">
+        <nav className="navbar sticky-top shadow-sm">
           <div className="imgSet">
           <Link to='/'>
           <img src={logo} alt="Logo" className='logo'/>

@@ -1,11 +1,10 @@
 
 #intro {
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
-    max-width: 70rem;
     margin: 0 auto;
+    max-width: 70rem;
     position: relative;
-    
 }
 .bg{
     position: absolute;
@@ -14,18 +13,21 @@
     right: 0;
     object-fit: cover;
     height: 80vh;
-    width: 30vw;
+    width: 33vw;
     margin-top: 1rem;
+    border-radius: 20px;
 }
 .introContent {
     height: 80vh;
-    width: 60vw;
+    width: 40vw;
     padding: 2rem;
-    font-size: 2.5rem;
-    font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.introText{
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .hello{
@@ -44,10 +46,12 @@
     letter-spacing: 0.5px;
     padding-top: 1rem;
     max-width: 30rem;
+    margin-bottom: 2rem;
 }
 .introSocial{
     word-spacing: 0.5rem;
-    font-size: 60%;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 940px){
@@ -68,7 +72,9 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        opacity: 0.75;
+        opacity: 0.7;
+        margin-top: 0rem;
+        border-radius: 0;
         
     }
     .introContent{
@@ -88,6 +94,9 @@
     }
     .hr{
         display: none;
+    }
+    .introName{
+        color: white;
     }
     
 }
