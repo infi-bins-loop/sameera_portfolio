@@ -38,6 +38,9 @@ img{
     margin-left: 7rem;
 }
 @media screen and (max-width: 500px){
+    .eduMain{
+        margin-left: 3rem;
+    }
     img{
         height: 3rem;
         width: 3rem;
