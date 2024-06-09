@@ -43,10 +43,11 @@ img{
         width: 3rem;
     }
     .title{
-        font-size: larger;
+        font-size:large;
+        margin-left: 1rem;
     }
     .deg{
-        margin-left: 6rem;
+        margin-left: 4rem;
         font-size: small;
     }
 }
