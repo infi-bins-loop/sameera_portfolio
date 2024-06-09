@@ -9,39 +9,38 @@
     padding: 1rem 2rem;
     justify-content: space-evenly;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
-
+    background-color: white;
 }
 
 
 .logo{
     object-fit: cover;
-    height: 3.3rem;
-    width: 3.4rem;
-    margin-left: 4rem;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 10rem;
     cursor: pointer;
     position: absolute;
 }
 
 .desktopMenuListItem{
-    margin: 1.5rem;
+    margin: 2.5rem 1.5rem;
     cursor: pointer;
-    color: black;
+    color: #0469AF;
     text-decoration: solid;
     font-size: larger;
     font-weight: 500;
     font-family: Marker Felt, fantasy;
 }
 .desktopMenuListItem:hover{
-    color: #0C9F50;
+    color: #10c7a8;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #0C9F50;
+    border-bottom: 2px solid #10c7a8;
 }
 
 .active{
-    color: #0C9F50;
+    color: #10c7a8;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #0C9F50;
+    border-bottom: 2px solid #10c7a8;
 }
 
 .mobMenu{
@@ -58,11 +57,10 @@
     padding: 0.5rem;
     height: fit-content;
     min-width: 15rem;
-    background: white;
 }
 
 .ListItem{
-    color: black;
+    color: #0469AF;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background-color: rgb(232, 232, 232);
@@ -72,9 +70,9 @@
     font-family: Marker Felt, fantasy;
 }
 .ListItem:hover{
-    color: #0C9F50;
+    color: #10c7a8;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #0C9F50;
+    border-bottom: 2px solid #10c7a8;
 }
 @media  screen and (max-width: 840px) {
     .mobMenu{

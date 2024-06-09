@@ -19,24 +19,35 @@
     font-weight:600;
     padding: 0.5rem 3rem;
 }
-
 .eduMain{
-    margin: 2rem 3rem;
-    margin-bottom: 4rem;
-    text-align: left;
-}
-.date{
-    width: 250px;
+    margin-left: 5rem;
+    margin-top: 2rem;
 }
 
+img{
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+}
+.title{
+    margin-left: 3rem;
+    font-size:x-large;
+    font-weight: 300;
+}
+.deg{
+    margin-left: 7rem;
+}
 @media screen and (max-width: 500px){
-    .eduMain{
-        max-width: 100vw;
-        text-align: left;
-        padding: 0;
+    img{
+        height: 3rem;
+        width: 3rem;
     }
-    .date{
-        width: 150px
+    .title{
+        font-size: larger;
+    }
+    .deg{
+        margin-left: 6rem;
+        font-size: small;
     }
 }
 

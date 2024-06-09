@@ -17,12 +17,12 @@
     font-size: 1.5rem;
     font-weight:600;
     padding: 0.5rem 3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .aboutDesc{
     max-width: 75vw;
-    margin-bottom: 2rem;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 500px){

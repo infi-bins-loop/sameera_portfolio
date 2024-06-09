@@ -30,8 +30,8 @@ const Contact = () => {
         <form className='contForm' ref={form} onSubmit={sendEmail}>
           <input type="text" className="name" placeholder='Your Name' name='from_name'/>
           <input type="email" className="email" placeholder='Your Email' name='from_email'/>
-          <textarea name="message" rows="10" placeholder='Your Message' className='msg'></textarea>
-          <button className="btn btn-dark submitbtn" type='submit' value='send'>Submit</button>
+          <textarea name="message" rows="7" placeholder='Your Message' className='msg'></textarea>
+          <button className="btn submitbtn" type='submit' value='send'>Submit</button>
         </form>
     </section>
   )
