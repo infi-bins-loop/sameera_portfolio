@@ -29,12 +29,7 @@ const Projects = () => {
             <p className='param'>Frontend for A Veterinary clinic website</p>
             <a class="btn btn-outline-light" href="https://infi-bins-loop.github.io/Bootstrap_JS_tasks/task2.html" role="button" rel='noreferrer' target="_blank">View Website</a>
           </div>
-          <br />
-          <div className="projImg3">
-            <h2 className='h2m'>Cubiculum</h2>
-            <p className='param'>Design for an online platform to make rooms for collaboration among students.</p>
-            <a class="btn btn-outline-light" href="https://www.figma.com/proto/kAeUedFey2wsB0n23XncmJ/Cubiculum?type=design&node-id=206-320&t=hJHTdRi7ncJr6aBd-1&scaling=min-zoom&page-id=201%3A2&starting-point-node-id=206%3A320" role="button" rel='noreferrer' target="_blank">View Prototype</a>
-          </div>
+          
           <div className="projImg4">
             <h2 className='h2m'>SalesMon</h2>
             <p className='param'>A sales monitoring app design</p>
